@@ -131,8 +131,6 @@ const ContainerOfRoute = (props) => {
     ]))
   }, [dispatch])
 
-  console.log(isValideEmail)
-
   return (
     <Box width={1}>
 
