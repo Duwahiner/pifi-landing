@@ -1,0 +1,10 @@
+@import '../../assets/styles/global-config';
+
+.contentButton {
+  cursor: pointer;
+  transition: all 0.3s;
+  &:hover {
+    background-color: $bgShadow;
+    color: $title;
+  }
+}

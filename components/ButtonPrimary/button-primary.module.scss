@@ -1,0 +1,15 @@
+@import '../../assets/styles/global-config';
+
+.buttonPrimary {
+  padding: 20px !important;
+  letter-spacing: 2pt;
+  background-color: transparent;
+  border: solid 2px $bgInput !important;
+  border-radius: 0px !important;
+  cursor: pointer;
+  transition: all 0.3s;
+  &:hover {
+    background-color: $bgInput;
+    color: $title;
+  }
+}

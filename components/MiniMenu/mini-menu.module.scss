@@ -1,0 +1,17 @@
+@import '../../assets/styles/global-config';
+
+.container {
+}
+
+.wrapperContainer {
+}
+
+.linkA {
+  text-decoration: none;
+  span {
+    transition: all 0.3s;
+    &:hover {
+      color: $title;
+    }
+  }
+}

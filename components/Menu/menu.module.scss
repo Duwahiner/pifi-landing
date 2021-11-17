@@ -1,0 +1,11 @@
+@import '../../assets/styles/global-config';
+
+.linkA {
+  text-decoration: none;
+  span {
+    transition: all 0.3s;
+    &:hover {
+      color: $title;
+    }
+  }
+}
