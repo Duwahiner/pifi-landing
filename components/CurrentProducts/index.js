@@ -54,7 +54,7 @@ export const CurrentProducts = ({
           {
             position === 'left' && (
               <Flex className={styles.directionImgLeft}>
-                <Box className={styles.img} display={['none', '']}>
+                <Box className={styles.img} display={['none', 'block']}>
                   <Image src={iconArrowsRight} alt='Icono arrows' width={15} />
                 </Box>
               </Flex>

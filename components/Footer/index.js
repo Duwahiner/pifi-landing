@@ -119,7 +119,7 @@ export const Footer = ({ theme }) => {
                 flexDirection={['row', 'column']}
                 flexWrap='wrap'
                 justifyContent={['center', 'flex-start']}
-                width={[1 / 12 * 12, 1 / 12 * 2.2]}
+                width={[1 / 12 * 12, 1 / 12 * 2.7]}
                 pl={['0px','20px', '40px']}
                 py={['20px','0px']}
                 sx={{
@@ -197,12 +197,12 @@ export const Footer = ({ theme }) => {
                 width={[1, 1 / 12 * 2.7]}
                 flexDirection='column'
                 justifyContent={['space-between']}
-                alignItems={['center', '']}
+                alignItems={['center', 'flex-start']}
                 pl={['0px','20px', '40px']}
                 py={['20px','0px']}
                 sx={{
                   borderLeft: [
-                    `solid 0px ${theme.colors.bgAlerts}`,, 
+                    `solid 0px ${theme.colors.bgAlerts}`,
                     `solid 1px ${theme.colors.bgAlerts}`],
                   borderTop: [
                     `solid 1px ${theme.colors.bgAlerts}`,
@@ -229,8 +229,8 @@ export const Footer = ({ theme }) => {
               <Flex
                 width={[1, 1 / 12 * 2.7]}
                 flexDirection={['row', 'column']}
-                justifyContent={['center', '']}
-                alignItems={['center', '']}
+                justifyContent={['center', null]}
+                alignItems={['center', 'flex-start']}
                 py={['20px','0px']}
                 pl={['0px','20px', '40px']}
                 sx={{

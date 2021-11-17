@@ -87,7 +87,7 @@ const ContainerOfRoute = (props) => {
         setErrorValue((state) => {
           return Object.assign({}, state, {
             state: 'error',
-            message: 'El correo que intentas ingresar es invalido'
+            message: 'El correo que intentas ingresar no es valido'
           })
         })
       }
