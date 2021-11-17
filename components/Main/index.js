@@ -7,7 +7,6 @@ const Container = styled(Box)`
 `
 
 const Main = ({ theme, children }) => {
-
   return (
     <Container>
       {children}

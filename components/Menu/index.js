@@ -128,7 +128,7 @@ export const Menu = ({
             pl={['20px']}
             pb={['5px']}
           >
-            <ContentIcons mb={['5px']}justifyContent='center'>
+            <ContentIcons mb={['5px']} justifyContent='center'>
               <Flex width={['auto']} bg=''>
                 <Image src={iconPufiNap} alt='icono pufi nap' width={40} height={30} />
               </Flex>

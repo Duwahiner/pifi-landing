@@ -14,7 +14,6 @@ export const Slider = ({
       <WrapperContainer
         width={[1]}
         className={styles.wrapper}
-        bg='red'
       >
        { data.data.urlImgSlider.length > 0 && (
           <SimpleImageSlider
@@ -25,7 +24,7 @@ export const Slider = ({
             showNavs={false}
             loop={true}
             autoPlay={true}
-            bgColor='#fff'
+            bgColor='transparent'
           />
        )
        }
