@@ -106,7 +106,7 @@ export const ToSuscribe = ({
                       if (errorValue.state !== 'error') handleSubcriptionEmail(event)
                   }}
                   sx={{
-                    cursor: !isValideEmail ? 'not-allowed' : 'pointer'
+                    cursor: isValideEmail ? 'pointer' : 'not-allowed' 
                   }}
                 >
                   <Image src={logotipo} alt='Logo Pufi' width={25} />

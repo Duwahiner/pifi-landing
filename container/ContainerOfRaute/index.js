@@ -90,6 +90,8 @@ const ContainerOfRoute = (props) => {
             message: 'El correo que intentas ingresar no es valido'
           })
         })
+
+        setIsValideEmail(false)
       }
     } else {
       setErrorValue((state) => {
@@ -128,6 +130,8 @@ const ContainerOfRoute = (props) => {
       } 
     ]))
   }, [dispatch])
+
+  console.log(isValideEmail)
 
   return (
     <Box width={1}>

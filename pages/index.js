@@ -6,7 +6,7 @@ export default function Home () {
     <Flex>
       <Head>
         <title>
-          Pifi
+          Pufi
         </title>
       </Head>
 
