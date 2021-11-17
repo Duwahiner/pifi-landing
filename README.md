@@ -28,7 +28,7 @@ Landing page para la promoción de productos.
 * [Despliegue](https://nextjs.org/docs/deployment) - Link opciones de despliegue
 -----------------------------------------------------------------------------------------------------
 
-## Bien hecho, disfruta de la app MeLi app:
+## Bien hecho, disfruta de la Landing Pufi:
     Gracias por la paciencia
 
 ## License
