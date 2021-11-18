@@ -1,14 +1,15 @@
 import { useRouter } from 'next/router'
 import { Box, Container, WrapperContainer } from '../util/template'
 import { Text } from '../components/Text'
-import { ButtonPrimary } from '../components/ButtonPrimary'
+import { ButtonSecondary } from '../components/ButtonSecondary'
 
 import styles from '../assets/styles/404.module.scss'
 
-import theme from '../theme'
+import { useTheme } from '../hooks/useTheme'
 
 const NotFound = (props) => {
   const router = useRouter()
+  const theme = useTheme()
 
   return (
     <Container width={1}>
@@ -27,11 +28,12 @@ const NotFound = (props) => {
         </Box>
 
         <Box mt='32px' width={[1 / 12 * 10, 1 / 12 * 2]}>
-          <ButtonPrimary
+          <ButtonSecondary
             width={1}
-            title='Regresar'
-            fontFamily='Roboto'
+            title='REGRESAR'
+            fontFamily='RobotoBold'
             fontSize='18px'
+            color={theme.colors.title}
             handleOnClick={() => router.back()}
           />
         </Box>

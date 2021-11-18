@@ -36,14 +36,15 @@ const ContainerOfRoute = (props) => {
 
   const handleOnchange = (event) => {
     const value = event.target.value
+  
     dispatch(getValueInput(value))
-    runValideEmail(value)
+    runValideEmail(value.toLowerCase())
   }
 
   const handleOnBlur = (event) => {
     const value = event.target.value
 
-    if (value) runValideEmail(value)
+    if (value) runValideEmail(value.toLowerCase())
   }
 
   const handleSubcriptionEmail = (event) => {
@@ -72,7 +73,7 @@ const ContainerOfRoute = (props) => {
 
   const runValideEmail = (valueEmail) => {
     const reg = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/
-
+    
     if (valueEmail) {
       if(reg.test(valueEmail)) {
         setErrorValue((state) => {
